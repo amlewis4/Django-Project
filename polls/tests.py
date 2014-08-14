@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import datetime
 
 from django.utils import timezone
@@ -97,3 +98,8 @@ class PollViewTests(TestCase):
             response.context['latest_poll_list'],
              ['<Poll: Past poll 2.>', '<Poll: Past poll 1.>']
         )
+=======
+from django.test import TestCase
+
+# Create your tests here.
+>>>>>>> 8ce034533a881a331330a8f713e22c96f5376d49
